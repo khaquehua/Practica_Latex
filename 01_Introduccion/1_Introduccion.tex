@@ -1,0 +1,65 @@
+\documentclass{book}
+
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{lipsum}
+
+\title{Matemàticas 1}
+\author{Kevin Haquehua}
+
+\begin{document}
+
+\frontmatter
+
+\maketitle %Generar un titulo
+
+\chapter{Productos notables}
+
+\section{Monomios}
+\lipsum[1-2]
+
+\tableofcontents
+\mainmatter
+
+\chapter{Expresiones algebraicas}
+
+Vista
+Hola mundo2 referencia a capitulo \ref{chap:factorizacion} 
+
+\chapter{Factorizaciòn}
+\label{chap:factorizacion}
+
+\marginpar{\lipsum[1]}
+
+\begin{enumerate}
+  \item Primer elemento.
+  \item Segundo elemento.
+    \begin{enumerate}
+      \item Primer subelemento
+      \item Segundo subelemento
+    \end{enumerate}
+\end{enumerate}
+
+\begin{description}
+  \item[Primer elemento] \lipsum[1]
+  \item[Segundo elemento] \lipsum[1] 
+\end{description}
+
+\twocolumn[\centering Texto en dos columnas]
+\lipsum[1-5]
+
+\chapter{Ecuaciones}
+
+\textbf{\lipsum[1]} 
+
+\backmatter
+
+\appendix
+
+\bibliography{bib}
+
+
+
+
+\end{document}
+
