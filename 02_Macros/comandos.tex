@@ -1,0 +1,55 @@
+\documentclass{article}
+
+\begin{document}
+
+\newcommand{\mycommand}{\textbf{This is my command} sin negrita
+
+\begin{center}
+  Texto centrado
+\end{center}
+}
+\mycommand
+
+\mycommand
+
+\newcommand{\mycommandb}[1]{\begingroup\bfseries #1\endgroup}
+
+\mycommandb{Efecto negrita a mi texto}
+
+Despuès del comando mycommandb
+
+\mycommandb{
+  \begin{center}
+    Hola mundo
+  \end{center}
+}
+
+\newcommand{\mycommandc}[2]{
+  El valor del primer argumento #1
+
+  El valor del segundo argumento es #2
+}
+
+\mycommandc{Este primer argumento}{Segundo argumento}
+
+-------------------------------------
+
+\newcommand{\mycommandd}[2][Valor por defecto]{
+  El valor del primer argumento es #1
+
+  El valor del segundo argumento es #2
+
+}
+
+\mycommandd[Hola]{Segundo argumento}
+
+-------------------------------------
+\newcommand{\mycommande}[1][Default]{
+  Valor ùnico del argumento #1
+}
+
+\mycommande
+\mycommande[oli]
+
+
+\end{document}

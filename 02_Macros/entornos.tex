@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage{multicol, lipsum}
+
+
+\begin{document}
+\begingroup  
+\bfseries Hola
+\endgroup
+
+% \newenvironment{}[][]{}{}
+
+\newenvironment{mientornoa}{
+  Inicio del entorno
+}{
+  Fin del entorno
+}
+
+\begin{mientornoa}
+
+  Contenido del entorno
+
+\end{mientornoa}
+
+\newenvironment{mientornob}{
+  \begin{center}
+    
+}{
+  \end{center}
+}
+
+\begin{mientornob}
+
+  Contenido del entornob
+
+\end{mientornob}
+
+
+\newenvironment{mientornoc}[1]{
+  \begin{multicols}{#1}
+    
+}{
+  \end{multicols}
+}
+
+\begin{mientornoc}{2}
+
+  \lipsum[1]
+
+\end{mientornoc}
+
+
+\newenvironment{mientornod}[1][2]{
+  \begin{multicols}{#1}
+    
+}{
+  \end{multicols}
+}
+
+----------------------------------
+
+\begin{mientornod}
+
+  \lipsum[1]
+
+\end{mientornod}
+
+
+\end{document}

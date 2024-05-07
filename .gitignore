@@ -48,7 +48,7 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# Que no se vea los generados del capito 1 Introduccion, excepto el pdf
+# Que no se vea los generados del capito 1 Introduccion,
 01_Introduccion/1_Introduccion.aux
 01_Introduccion/1_Introduccion.fdb_latexmk
 01_Introduccion/1_Introduccion.fls
@@ -58,6 +58,24 @@ rsconnect/
 01_Introduccion/1_Introduccion.toc
 01_Introduccion/1_Introduccion.xdv
 01_Introduccion/1_Introduccion.pdf
+
+# Que no se vea los generados del capitulo 2 Macro
+02_Macros/comandos.aux
+02_Macros/comandos.fdb_latexmk
+02_Macros/comandos.fls
+02_Macros/comandos.log
+02_Macros/comandos.synctex.gz
+02_Macros/comandos.toc
+02_Macros/comandos.xdv
+02_Macros/comandos.pdf
+02_Macros/entornos.aux
+02_Macros/entornos.fdb_latexmk
+02_Macros/entornos.fls
+02_Macros/entornos.log
+02_Macros/entornos.synctex.gz
+02_Macros/entornos.toc
+02_Macros/entornos.xdv
+02_Macros/entornos.pdf
 
 # Que no se vea los generados del capitulo 21 NEOVIM
 21_Intro_NEOVIM/NEOVIM.aux
