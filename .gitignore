@@ -47,3 +47,12 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Que no se vea los generados del capitulo 21 NEOVIM
+21_Intro_NEOVIM/NEOVIM.aux
+21_Intro_NEOVIM/NEOVIM.fdb_latexmk
+21_Intro_NEOVIM/NEOVIM.fls
+21_Intro_NEOVIM/NEOVIM.log
+21_Intro_NEOVIM/NEOVIM.pdf
+21_Intro_NEOVIM/NEOVIM.synctex.gz
+21_Intro_NEOVIM/NEOVIM.xdv
