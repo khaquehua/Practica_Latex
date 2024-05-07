@@ -76,6 +76,15 @@ rsconnect/
 02_Macros/entornos.toc
 02_Macros/entornos.xdv
 02_Macros/entornos.pdf
+02_Macros/contadores.aux
+02_Macros/contadores.fdb_latexmk
+02_Macros/contadores.fls
+02_Macros/contadores.log
+02_Macros/contadores.synctex.gz
+02_Macros/contadores.toc
+02_Macros/contadores.xdv
+02_Macros/contadores.pdf
+
 
 # Que no se vea los generados del capitulo 21 NEOVIM
 21_Intro_NEOVIM/NEOVIM.aux

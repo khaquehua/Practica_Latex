@@ -1,0 +1,44 @@
+\documentclass{book}
+
+\begin{document}
+\chapter{Cap 1}
+
+
+El nùmero de pàgina es: \thepage
+
+\renewcommand{\thepage}{\roman{page}}
+
+El nùmero de pàgina es: \thepage
+
+
+\renewcommand{\thepage}{\alph{page}}
+
+El nùmero de pàgina es: \thepage
+
+
+\newcounter{micontador}
+\themicontador
+
+\addtocounter{micontador}{2}
+\themicontador
+
+\addtocounter{micontador}{-1}
+\themicontador
+
+\addtocounter{micontador}{100}
+\themicontador
+
+\newcounter{fragment}[chapter]
+\renewcommand{\thefragment}{
+\thechapter.\arabic{fragment}} 
+\newcommand{\fragment}[1]{\stepcounter{fragment}#1
+\thefragment}
+
+\fragment{Problemas resueltos}
+
+
+
+
+
+\end{document}
+
