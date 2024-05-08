@@ -93,7 +93,14 @@ rsconnect/
 02_Macros/longitudes.xdv
 02_Macros/longitudes.pdf
 
-
+# Que no se vea los generados del capitulo 3 Estructura
+03_Estructura/3_Estructura.aux
+03_Estructura/3_Estructura.fdb_latexmk
+03_Estructura/3_Estructura.fls
+03_Estructura/3_Estructura.log
+03_Estructura/3_Estructura.pdf
+03_Estructura/3_Estructura.synctex.gz
+03_Estructura/3_Estructura.xdv
 
 # Que no se vea los generados del capitulo 21 NEOVIM
 21_Intro_NEOVIM/NEOVIM.aux

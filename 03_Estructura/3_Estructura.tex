@@ -1,0 +1,37 @@
+\documentclass{book}
+
+
+
+\newcommand\chapterfile[1]{
+  \def\namefile{#1}
+  \sectiontheory{#1}
+  \sectionform{#1}
+  % \sectionproblemsolved{#1}
+  % \sectionproblememproposed{#1}
+}
+
+\newcommand\sectiontheory[1]{
+  \def\rootimage{#1/IMAGES-TEORIA-#1}
+  \input{#1/TEORIA-#1}
+}
+
+\def\holamundo{$c^2 = a^2 + b^2$}
+
+\newcommand\sectionform[1]{
+  \def\rootimage{#1/IMAGES-FORMULARIO-#1}
+  \input{#1/FORMULARIO-#1}
+}
+
+\newcommand\image[1]{\rootimage/#1}
+
+\begin{document}
+  Hola mundo
+  \holamundo
+
+  Diferenciaa entre def y newcommand, es que para manejar macros temporales se recomienda usar def\\
+
+  \chapterfile{VECTORES}
+
+\end{document}
+
+
