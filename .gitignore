@@ -102,6 +102,15 @@ rsconnect/
 03_Estructura/3_Estructura.synctex.gz
 03_Estructura/3_Estructura.xdv
 
+# Que no se vea los generados del capitulo 3 Estructura
+Class_8_Tikz/Tikz.aux
+Class_8_Tikz/Tikz.fdb_latexmk
+Class_8_Tikz/Tikz.fls
+Class_8_Tikz/Tikz.log
+Class_8_Tikz/Tikz.pdf
+Class_8_Tikz/Tikz.synctex.gz
+Class_8_Tikz/Tikz.xdv
+
 # Que no se vea los generados del capitulo 21 NEOVIM
 21_Intro_NEOVIM/NEOVIM.aux
 21_Intro_NEOVIM/NEOVIM.fdb_latexmk
