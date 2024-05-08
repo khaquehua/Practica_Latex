@@ -84,6 +84,15 @@ rsconnect/
 02_Macros/contadores.toc
 02_Macros/contadores.xdv
 02_Macros/contadores.pdf
+02_Macros/longitudes.aux
+02_Macros/longitudes.fdb_latexmk
+02_Macros/longitudes.fls
+02_Macros/longitudes.log
+02_Macros/longitudes.synctex.gz
+02_Macros/longitudes.toc
+02_Macros/longitudes.xdv
+02_Macros/longitudes.pdf
+
 
 
 # Que no se vea los generados del capitulo 21 NEOVIM

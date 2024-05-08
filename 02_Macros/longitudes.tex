@@ -1,0 +1,28 @@
+\documentclass{book}
+
+\begin{document}
+
+\chapter{Capitulo 1 longitudes}
+
+\the\paperwidth \\
+
+\the\hoffset
+Hola \hspace{3cm} mundo
+
+\newlength{\margen}
+\setlength\margen{10pt}
+
+\the\margen
+
+\addtolength{\margen}{5pt}
+\the\margen
+
+\addtolength{\margen}{-2pt}
+\the\margen
+
+\chapter{Longitudes elasticas}
+
+Hola \hspace{3cm plus 1cm minus 5mm} mundo
+
+\end{document}
+
