@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{lipsum}
+\usepackage{xcolor}
+%\usepackage{colors}
+
+\newcommand\marginnote[1]{\marginpar{
+  \begin{tikzpicture}
+    \node[minimum width=\marginparwidth, align = left, text width=\marginparwidth, fill=cyan, rounded corners=3pt]{
+      #1
+    };
+  \end{tikzpicture}
+}
+}
+
+\begin{document}
+
+\marginnote{Hola mundo}
+
+\lipsum[1-2]
+
+\marginnote{Hola mundo}
+
+
+\end{document}

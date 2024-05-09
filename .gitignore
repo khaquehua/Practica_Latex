@@ -111,6 +111,16 @@ Class_8_Tikz/Tikz.pdf
 Class_8_Tikz/Tikz.synctex.gz
 Class_8_Tikz/Tikz.xdv
 
+# Que no se vea los generados del capitulo 3 Estructura
+Class_12_Notas_Margen/notas_margen.aux
+Class_12_Notas_Margen/notas_margen.fdb_latexmk
+Class_12_Notas_Margen/notas_margen.fls
+Class_12_Notas_Margen/notas_margen.log
+Class_12_Notas_Margen/notas_margen.pdf
+Class_12_Notas_Margen/notas_margen.synctex.gz
+Class_12_Notas_Margen/notas_margen.xdv
+
+
 # Que no se vea los generados del capitulo 21 NEOVIM
 21_Intro_NEOVIM/NEOVIM.aux
 21_Intro_NEOVIM/NEOVIM.fdb_latexmk
