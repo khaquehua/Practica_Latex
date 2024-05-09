@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{xcolor}
+
+\begin{document}
+
+\renewcommand\theenumi{{\bfseries\arabic{enumi}}}
+\renewcommand\labelenumi{
+  \tikz[baseline=-3pt]\node[fill=cyan]{\theenumi};
+}
+
+
+\begin{enumerate}
+  \item Primer item
+  \item Segundo item
+  \item Tercer item
+\end{enumerate}
+
+
+
+\end{document}
