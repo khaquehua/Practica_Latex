@@ -1,0 +1,62 @@
+\documentclass{book}
+\usepackage{ulem}
+\usepackage{geometry}
+\geometry{paperwidth=11cm,paperheight=16cm,margin=1cm}
+\usepackage{lipsum}
+\usepackage{amsthm,amsmath,esvect}
+
+
+\renewcommand\baselinestretch{1.5}
+\renewcommand\theenumi{\textbf{\arabic{enumi}}}
+
+\newtheorem{definition}{Definicion}[section]
+
+
+\begin{document}
+ 
+  \begin{minipage}{\textwidth}
+    Contenido dentro del entorno minipage. \footnote{nota en pie de pagina dentro del entorno minipage}
+  \end{minipage}
+
+  Prueba de nota en pie de pagina \footnote{Nota en pie de pagina fuera del entorno minipage}
+
+  Contador footnote: \thefootnote\\
+  Contador mpfootnote: \thempfootnote
+
+  \MakeUppercase{Hola mundo en mayuscula}\\
+  \MakeLowercase{Hola mundo en minuscula}\\
+  \emph{Funcion emph para subrayar texto}\\
+  \uuline{Otro subrayado}\\
+  \uwave{Otro subrayado}\\
+  \sout{Otro subrayado}\\
+  \xout{Otro subrayado}
+
+  \begin{flushright}
+    Hola mundo
+  \end{flushright}
+
+  \begin{flushleft}
+    Hola mundo
+  \end{flushleft}
+
+  \begin{center}
+    Hola mundo
+  \end{center}
+
+  \lipsum[1]
+
+\begin{enumerate}
+  \item Item 1
+  \item Item 2
+\end{enumerate}
+
+\section{Seccion 1}
+\begin{definition}
+  El desplazamiento $\Delta \vv{x}$ de una particula se define como cambio de posicion.
+  \begin{align*}
+    \Delta \vv{s} &= \vv{s} - \vv{s}_0
+  \end{align*}
+\end{definition}
+
+\end{document}
+

@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{paperwidth=14cm,paperheight=18cm,margin=5mm}
+\usepackage{lipsum,amsmath}
+\usepackage{paracol}
+\begin{document}
+\begin{paracol}{2}[\section{Introducción}]
+\lipsum[1]
+\switchcolumn
+\begin{align*}
+\sqrt{\sqrt{\sqrt{\sqrt{4}}}}
+\end{align*}
+\end{paracol}
+\begin{paracol}{3}[Antes de las columas divididas]
+Primera columan
+\switchcolumn
+Segunda columna
+\switchcolumn
+Tercera columna
+\end{paracol}
+\end{document}
+
+

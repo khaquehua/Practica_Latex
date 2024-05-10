@@ -103,6 +103,23 @@ rsconnect/
 03_Estructura/3_Estructura.xdv
 
 # Que no se vea los generados del capitulo 3 Estructura
+04_Herramientas/4_Herramientas.aux
+04_Herramientas/4_Herramientas.fdb_latexmk
+04_Herramientas/4_Herramientas.fls
+04_Herramientas/4_Herramientas.log
+04_Herramientas/4_Herramientas.pdf
+04_Herramientas/4_Herramientas.synctex.gz
+04_Herramientas/4_Herramientas.xdv
+04_Herramientas/Herramientas_2.aux
+04_Herramientas/Herramientas_2.fdb_latexmk
+04_Herramientas/Herramientas_2.fls
+04_Herramientas/Herramientas_2.log
+04_Herramientas/Herramientas_2.pdf
+04_Herramientas/Herramientas_2.synctex.gz
+04_Herramientas/Herramientas_2.xdv
+
+
+# Que no se vea los generados del capitulo 3 Estructura
 Class_8_Tikz/Tikz.aux
 Class_8_Tikz/Tikz.fdb_latexmk
 Class_8_Tikz/Tikz.fls
@@ -127,6 +144,14 @@ Class_13_Listas/listas.log
 Class_13_Listas/listas.pdf
 Class_13_Listas/listas.synctex.gz
 Class_13_Listas/listas.xdv
+
+Class_14_Cajas_teorema/cajas.aux
+Class_14_Cajas_teorema/cajas.fdb_latexmk
+Class_14_Cajas_teorema/cajas.fls
+Class_14_Cajas_teorema/cajas.log
+Class_14_Cajas_teorema/cajas.pdf
+Class_14_Cajas_teorema/cajas.synctex.gz
+Class_14_Cajas_teorema/cajas.xdv
 
 # Que no se vea los generados del capitulo 21 NEOVIM
 21_Intro_NEOVIM/NEOVIM.aux
