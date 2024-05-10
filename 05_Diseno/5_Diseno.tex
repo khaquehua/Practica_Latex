@@ -1,0 +1,62 @@
+\documentclass{book}
+\usepackage[x11names,table,svgnames,usenames,dvipsnames]{xcolor}
+\usepackage[paperwidth=15cm, paperheight=23cm,margin=1.3cm]{geometry}
+\usepackage[pagestyles,explicit]{titlesec}
+\usepackage{lipsum}
+\usepackage{tikz}
+\usepackage{tikzpagenodes}
+\definecolor{backgroundpage}{HTML}{C8B2D7}%dp1
+\definecolor{fontpage}{HTML}{5F605D}
+\newcommand\pagenumstyle{%
+\tikz{%
+\node[rectangle, rounded corners=3pt, fill=backgroundpage]{\bfseries\thepage};
+}
+}
+\newcommand\sectiontitlestyle{%
+\tikz{%
+  \node[rectangle, rounded corners=3pt, fill=white]{\bfseries\thesection\;\;\sectiontitle};
+}
+}
+\newcommand\chaptertitlestyle{%
+\tikz{%
+\node[rectangle, rounded corners=3pt, fill=backgroundpage]{\bfseries\thechapter\;\;\chaptertitle};
+}
+}
+\newcommand\autortitlestyle{%
+\tikz{%
+\node[rectangle, rounded corners=3pt, fill=white]{\bfseries Heber MQ};
+}
+}
+\newpagestyle{myestilo}{%
+\sethead[\sectiontitlestyle][][\autortitlestyle]% even
+{\autortitlestyle}{}{\sectiontitlestyle}% odd impar
+\renewcommand\makeheadrule{%
+\begin{tikzpicture}[remember picture,overlay]
+\fill[backgroundpage] (current page.north west) rectangle ([xshift=2pt,yshift=-4mm]current
+,! page.east|-current page header area.south east);
+\end{tikzpicture}
+}
+\setfoot[\pagenumstyle][][\chaptertitlestyle]% even
+{\chaptertitlestyle}{}{\pagenumstyle}% odd impar
+}
+\newpagestyle{chapterpagestyle}{%
+\sethead[][][]% even
+{}{}{}% odd impar
+\renewcommand\makeheadrule{%
+\begin{tikzpicture}[remember picture,overlay]
+\fill[backgroundpage] (current page.north west) rectangle ([xshift=2pt,yshift=-4mm]current
+,! page.east|-current page header area.south east);
+\end{tikzpicture}
+}
+\setfoot[\pagenumstyle][][\chaptertitlestyle]% even
+{\chaptertitlestyle}{}{\pagenumstyle}% odd impar
+}
+\assignpagestyle{\chapter}{chapterpagestyle}
+\begin{document}
+\pagestyle{myestilo}
+\chapter{Capítulo de prueba}
+\section{Sección de prueba}
+\lipsum[1-5]
+\end{document}
+
+

@@ -118,6 +118,16 @@ rsconnect/
 04_Herramientas/Herramientas_2.synctex.gz
 04_Herramientas/Herramientas_2.xdv
 
+# Que no se vea los generados del capitulo 5 diseno de pagina
+
+05_Diseno/5_Diseno.aux
+05_Diseno/5_Diseno.fdb_latexmk
+05_Diseno/5_Diseno.fls
+05_Diseno/5_Diseno.log
+05_Diseno/5_Diseno.pdf
+05_Diseno/5_Diseno.synctex.gz
+05_Diseno/5_Diseno.xdv
+
 
 # Que no se vea los generados del capitulo 3 Estructura
 Class_8_Tikz/Tikz.aux
