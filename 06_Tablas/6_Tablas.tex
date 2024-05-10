@@ -1,0 +1,78 @@
+\documentclass{article}
+\usepackage[paperwidth=10cm,paperheight=4cm, margin=1mm]{geometry}
+\usepackage{float}
+\begin{document}
+\begin{table}
+\centering
+\begin{tabular}{cc}
+Nombre & Puntaje \\
+Alan & 100 \\
+Bob & 60 \\
+Chris & 10 \\
+David & 80
+\end{tabular}
+\caption{}
+\end{table}
+
+\begin{tabular}{|cc|c|}
+\hline
+p & q & p $\wedge$ q\\
+\hline
+v & v & v\\
+v & f & f\\
+f & v & f\\
+f & f & f\\
+\hline
+\end{tabular}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|cc|c|}
+\hline
+p & q & p $\wedge$ q\\
+\hline
+v & v & v\\
+v & f & f\\
+f & v & f\\
+f & f & f\\
+\hline
+\end{tabular}
+\caption{Tabla de prueba}
+\label{tab:tablaVerdad}
+\end{table}
+En la tabla \ref{tab:tablaVerdad} se muestra la tabla de verdad.
+
+\begin{tabular}{|c|c|c|}
+\hline
+$p$ & $q$ & $p \rightarrow q$ \\ \hline
+0 & 0 & 1 \\
+0 & 1 & 1 \\ \cline{1-2}
+1 & 0 & 0 \\
+1 & 1 & 1 \\ \hline
+\end{tabular}
+
+\begin{tabular*}{5cm}{|cc|c|}
+\hline
+p & q & p $\wedge$ q\\
+\hline
+V & V & V\\
+V & F & F\\
+F & V & F\\
+F & F & F\\
+\hline
+\end{tabular*}
+
+Para obtener una columna en negrilla
+
+\begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|}
+\hline
+a a a a a a a a a a a a a a a a & b b b b b b b b b b
+,! b & c c c c \\
+\hline
+\end{tabular}
+
+
+
+
+\end{document}
+
